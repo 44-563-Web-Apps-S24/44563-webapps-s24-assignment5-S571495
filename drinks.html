@@ -103,6 +103,24 @@
   </head>
   <body>
    
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="drinks.html">A Few Drinks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="advanced.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
       <img src="d1.jpg" alt="Drink 1" class="img-fluid">
       <img src="d2.jpg" alt="Drink 2" class="img-fluid">
@@ -203,6 +221,23 @@
           
         </ul>
       </div>
+      <br>
 
+      <form>
+        <div class="form-group mb-3">
+            <label for="InputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group mb-3">
+            <label for="drinkInput" class="form-label">Drink</label>
+            <input type="text" class="form-control" id="drinkInput" placeholder="Enter your drink">
+        </div>
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="newsletterCheckbox">
+            <label class="form-check-label" for="newsletterCheckbox">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     </body>
 </html>
